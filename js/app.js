@@ -24,10 +24,7 @@ function displayProduct() {
         listContainer.appendChild(tr);
     }
 }
-function disableButton(btn) {
-    document.getElementById(btn.id).disabled = true;
 
-}
 
 function addToList(element) {
     const playerName = element.parentNode.children[0].innerText;

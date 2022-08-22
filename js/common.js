@@ -20,6 +20,12 @@ function getFieldValueById(inputFieldId) {
     return isValid(inputFieldValue);
 }
 
+function disableButton(btn) {
+    document.getElementById(btn.id).disabled = true;
+
+
+}
+
 function getTextElementValueById(elementId) {
 
     const textElement = document.getElementById(elementId);
