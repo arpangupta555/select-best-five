@@ -2,9 +2,17 @@
 
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 .text-shadow {
-    text-shadow: 5px 5px 7px #573737;
+    text-shadow: 5px 8px 7px #8865e9;
+}
+
+.text-shadow1 {
+    text-shadow: 5px 3px 7px #020202;
 }
