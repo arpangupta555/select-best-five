@@ -24,6 +24,8 @@ function disableButton(btn) {
     document.getElementById(btn.id).disabled = true;
 
 
+
+
 }
 
 function getTextElementValueById(elementId) {

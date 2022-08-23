@@ -1,7 +1,5 @@
 const list = [];
 
-
-
 function displayProduct() {
 
     const totalPlayers = document.getElementById("total-players");
