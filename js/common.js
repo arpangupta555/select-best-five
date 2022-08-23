@@ -23,9 +23,6 @@ function getFieldValueById(inputFieldId) {
 function disableButton(btn) {
     document.getElementById(btn.id).disabled = true;
 
-
-
-
 }
 
 function getTextElementValueById(elementId) {
