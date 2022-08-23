@@ -1,6 +1,6 @@
 const list = [];
 
-function displayProduct() {
+function displayPlayer() {
 
     const totalPlayers = document.getElementById("total-players");
 
@@ -30,10 +30,10 @@ function addToList(element) {
         playerName: playerName,
     }
     list.push(pn);
-    displayProduct();
+    displayPlayer();
 }
 
-document.getElementById('caltulate-total').addEventListener('click', function () {
+document.getElementById('btn-caltulate-total').addEventListener('click', function () {
     const totalPlayers = getTextElementValueById("total-players");
     const perPlayerCost = getFieldValueById("per-player-field");
     const totalPlayerCost = totalPlayers * perPlayerCost;
