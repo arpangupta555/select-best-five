@@ -5,7 +5,7 @@ function displayPlayer() {
     const totalPlayers = document.getElementById("total-players");
 
     if (list.length > 5) {
-        alert('You can not add more then 5 players')
+        alert('You can not add more than 5 players')
         return;
     }
     totalPlayers.innerText = list.length;
@@ -33,6 +33,10 @@ function addToList(element) {
     displayPlayer();
 }
 
+
+
+
+
 document.getElementById('btn-caltulate-total').addEventListener('click', function () {
     const totalPlayers = getTextElementValueById("total-players");
     const perPlayerCost = getFieldValueById("per-player-field");
@@ -41,6 +45,9 @@ document.getElementById('btn-caltulate-total').addEventListener('click', functio
     return totalPlayerCost;
 
 })
+
+
+
 document.getElementById('btn-calculate-total').addEventListener('click', function () {
     const managerCost = getFieldValueById("manager-field");
     const coachCost = getFieldValueById("coach-field");
